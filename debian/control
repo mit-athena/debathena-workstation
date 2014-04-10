@@ -9,7 +9,6 @@ Package: debathena-workstation
 Architecture: all
 Depends: debathena-login-graphical,
  debathena-extra-software,
- debathena-build-depends,
  debathena-clusterinfo,
  debathena-dns-config,
  debathena-emacs-config,
