@@ -1,3 +1,12 @@
+debathena-workstation (1.13) unstable; urgency=low
+
+  * Switch to dh7
+  * Drop conditional inclusion of tex-config, because everything has
+    texlive 2009-10 or later (which respects /etc/papersize)
+  * Drop debathena-dns-config, as it is becoming cluster-only
+
+ -- Jonathan Reed <jdreed@mit.edu>  Tue, 10 Jun 2014 10:28:38 -0400
+
 debathena-workstation (1.12) unstable; urgency=low
 
   * Remove dependency on debathena-build-depends (Trac: #1462)
